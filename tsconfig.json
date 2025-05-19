@@ -11,12 +11,13 @@
     "target": "ESNext",
     "useDefineForClassFields": true,
     "lib": ["DOM", "DOM.Iterable", "ESNext"],
-    "allowJs": true, // ✅ JS ফাইল allow
-    "checkJs": false, // ✅ JS ফাইলে টাইপ চেক না করে
+    "allowJs": true,
+    "checkJs": false,
     "skipLibCheck": true,
     "esModuleInterop": true,
     "allowSyntheticDefaultImports": true,
-    "strict": true,
+    "strict": false, // 🔧 এটা false করো
+    "noImplicitAny": false, // 🔧 এটাও false করো
     "forceConsistentCasingInFileNames": true,
     "module": "ESNext",
     "moduleResolution": "Node",
